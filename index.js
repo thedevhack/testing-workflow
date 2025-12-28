@@ -8,6 +8,6 @@ server.get("/health-check", (req, res) => {
 })
 
 server.listen(3000, () => {
-    console.log("server started ON 3000")
+    console.log("server started ON 3000!")
 })
 
