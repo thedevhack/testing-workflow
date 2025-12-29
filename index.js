@@ -4,7 +4,7 @@ const express = require('express');
 const server = express();
 
 server.get("/health-check", (req, res) => {
-    res.json({message:"ok!!!!!!!!!!1!"})
+    res.json({message:"ok!!!! updated!"})
 })
 
 server.listen(3000, () => {
